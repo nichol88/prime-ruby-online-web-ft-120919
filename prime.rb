@@ -9,12 +9,14 @@ def prime?(num)
 puts "is #{num} in #{a}? -> true"
 
 
-  case num
 
-  when a.include?(num)
+
+  if a.include?(num)
     return true
-  when num.to_s.end_with?("5") || num % 2 == 0
+  elsif num.to_s.end_with?("5") || num % 2 == 0
     return false
+  else
+    true
   end
 
 end
