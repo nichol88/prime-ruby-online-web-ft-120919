@@ -6,10 +6,11 @@ def prime?(num)
 
   a = [1,2,3,5]
 
+puts "is #{num} in #{a}? -> true"
 
 
   case num
-    puts "is #{num} in #{a}?"
+
   when a.include?(num)
     return true
   when num.to_s.end_with?("5") || num % 2 == 0
