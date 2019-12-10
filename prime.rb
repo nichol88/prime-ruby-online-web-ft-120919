@@ -7,7 +7,7 @@ def prime?(num)
   elsif num.to_s.end_with?("5") || num % 2 == 0 || num < 0
     return false
   else
-    true
+    false
   end
 
 end
