@@ -1,9 +1,6 @@
 # Add  code here!
 def prime?(num)
-  num = num * -1 if num * 1 < 0
-
-  puts num
-
+  num = num * -1 if num < 0
   a = [1,2,3,5]
 
   if a.include?(num)
