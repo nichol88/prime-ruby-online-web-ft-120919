@@ -5,6 +5,10 @@ def prime?(num)
 
   r.each{ |i|
     if (num / i).to_s.length > 2
+      return false
+    else
+      puts i
+    end
   }
 
 end
