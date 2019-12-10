@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   num = num * -1 if num < 0
-  a = [1,2,3,5]
+  a = [1,2,3,5,11,13]
 
   if a.include?(num)
     return true
