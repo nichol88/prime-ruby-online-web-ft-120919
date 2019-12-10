@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-r = [1,2,3]
+r = [1..num]
 # divide by each num lower than it
-r.push()
+r.push(4..num)
 end
